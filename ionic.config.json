@@ -1,0 +1,7 @@
+{
+  "name": "interpolation-pipes-events",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
