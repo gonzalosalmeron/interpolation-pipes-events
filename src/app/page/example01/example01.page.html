@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>example01</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p>The number of x is {{ x }}</p>
+  <p>The number of y is {{ y }}</p>
+  <p>The sum {{ x + y }} </p>
+  <p>The animal is {{ animal | uppercase }} </p>
+  <p>My name is {{ person | json }} </p>
+  <p>My name is {{ person.name }} </p>
+  <ion-chip> {{ person.name }} </ion-chip>
+  <ion-chip> {{ person.age  }} </ion-chip>
+  <ion-chip> {{ person.salary | currency: '€' }} </ion-chip>
+  <ion-chip> {{ today | date: 'dd/MM/yyyy' }} </ion-chip>
+
+</ion-content>
